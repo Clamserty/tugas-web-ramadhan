@@ -3,7 +3,7 @@ body{
     
 }
 
-.readmore.none.fas, .readmore1.none.fas1, .readmore2.fas2.none{
+.readmore.none.fas, .readmore1.none.fas1, .readmore2.fas2.none, .readmore3.none.fas{
     display: none;
 }
 .readless.fas, .readless.fas.none, .readless1.fas1.none, .readless2.fas2.none{
@@ -26,7 +26,7 @@ body{
 .bahas.kata-more.readed img,.bahas.kata-more1.readed img,.bahas.kata-more2.readed img{
     width: 700px;
 }
-.tm1 .bahas.less.none,.tm1 .bahas.less1.none,.tm1 .bahas.less2.none{
+.tm1 .bahas.less.none,.tm1 .bahas.less1.none,.tm1 .bahas.less2.none,.tm1 .bahas.less3.none{
     display: none;
 }
 .kata > p, .kata-more > p,  .kata-more1 > p,  .kata-more2 > p{
@@ -170,6 +170,9 @@ body{
     width: 500px;
     transition: 0.5s all;
 }
+.tm1 .bahas.less3.hp{
+    display: none;
+}
 .tm1 .bahas.less1{
     display: grid;
     grid-template-columns: auto 40%;
@@ -178,7 +181,7 @@ body{
     padding-bottom: 70px;
     /* padding-top: 50px; */
 }
-.tm1 .bahas.less, .tm1 .bahas.less2{
+.tm1 .bahas.less, .tm1 .bahas.less2, .tm1 .bahas.less3{
     display: grid;
     grid-template-columns: 40% auto;
     font-size: 25px;
@@ -328,6 +331,17 @@ margin-left: 20px;
         padding-top: 50px;
         transition: 0.5s all;
         
+    }
+    .tm1 .bahas.less1.laptop{
+        display: none;
+    }
+    .tm1 .bahas.less3.hp{
+        display: grid;
+        grid-template-columns:  auto;
+        padding-top: 50px;
+    }
+    .tm1 .bahas.less3.none{
+        display: none;
     }
     .tm1 .bahas.less, .tm1 .bahas.less1,  .tm1 .bahas.less2{
         display: grid;
