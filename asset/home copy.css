@@ -343,7 +343,7 @@ margin-left: 20px;
     .tm1 .bahas.less3.none{
         display: none;
     }
-    .tm1 .bahas.less, .tm1 .bahas.less3,  .tm1 .bahas.less2{
+    .tm1 .bahas.less,  .tm1 .bahas.less2{
         display: grid;
         grid-template-columns:  auto;
         padding-top: 50px;
