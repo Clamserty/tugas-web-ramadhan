@@ -23,9 +23,9 @@ body{
     grid-template-columns: auto;
 
 }
-.bahas.kata-more.readed img,.bahas.kata-more1.readed img,.bahas.kata-more2.readed img{
+/* .bahas.kata-more.readed img,.bahas.kata-more1.readed img,.bahas.kata-more2.readed img{
     width: 700px;
-}
+} */
 .tm1 .bahas.less.none,.tm1 .bahas.less1.none,.tm1 .bahas.less2.none,.tm1 .bahas.less3.none{
     display: none;
 }
@@ -265,7 +265,7 @@ margin-left: 20px;
     }
 }
 @media only screen and  (max-width: 1600px){
-    .tm1 .bahas img{
+    .tm1 img{
         width: 450px;
         transition: 0.5s all;
     }
